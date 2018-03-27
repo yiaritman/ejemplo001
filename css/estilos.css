@@ -1,0 +1,828 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+@font-face{
+    font-family: "Richmond W01 Extra Bold";
+    src: url("../fonts/Richmond W01 Extra Bold.eot");
+    src: url("../fonts/Richmond W01 Extra Bold.eot?iefix") format("embedded-opentype"),
+    url("../fonts/Richmond W01 Extra Bold.woff2") format("woff2"),
+    url("../fonts/Richmond W01 Extra Bold.woff") format("woff"),
+    url("../fonts/Richmond W01 Extra Bold.ttf") format("truetype"),
+    url("../fonts/Richmond W01 Extra Bold.otf") format("opentype"),
+    url("../fonts/Richmond W01 Extra Bold.svg#Richmond W01 Extra Bold") format("svg");
+    font-weight: normal; font-style: normal;
+}
+
+.contenedor-general{
+    width: 982px;
+    height: 664px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/*INTRODUCCION*/
+/**************/
+
+.contenedor-introduccion{
+    background-image:url(../img/intro/fondo-refe.jpg);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    
+}
+.img-intro-1{
+    position: absolute;
+    top: 210px;
+    left: 137px;
+    z-index: 10
+}
+.img-intro-2{
+    position: absolute;
+    top: 30px;
+    left: 240px;
+}
+.img-intro-3{
+    width: 180px;
+    height: 342px;
+    position: absolute;
+    bottom: -15px;
+    background-image: url(../img/intro/sprite1.png);
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    left: 5px;
+    cursor: pointer;
+    z-index: 100;
+    
+}
+/*@keyframes flechaStart{
+    animation: flechaStart 1s steps(2) infinite;
+    from{
+        background-position: 0 0;
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        transform: scale3d(1.05, 1.1, 1.05);
+      }
+    to{
+        background-position: 361px 0;
+        transform: scale3d(1, 1, 1);
+    }
+}*/
+
+.img-intro-4{
+    position: absolute;
+    bottom: 213px;
+    left: 200px;
+    z-index: 20;
+}
+.img-intro-5{
+    position: absolute;
+    bottom: 100px;
+    left: 160px;
+    z-index: 20;
+}
+.img-intro-6{
+    position: absolute;
+    top: 130px;
+    left: 210px;
+    z-index: 20;
+}
+.img-intro-7{
+    position: absolute;
+    bottom: 200px;
+    left: 327px;
+    z-index: 20;
+}
+.img-intro-8{
+    position: absolute;
+    bottom: 122px;
+    right: 400px;
+    z-index: 20;
+}
+.img-intro-9{
+    position: absolute;
+    bottom: 136px;
+    right: 290px;
+    z-index: 20;
+}
+.img-intro-10{
+    position: absolute;
+    bottom: 136px;
+    right: 95px;
+}
+.img-intro-11{
+    position: absolute;
+    bottom: 156px;
+    right: 140px;
+    z-index: 20;
+}
+.img-intro-12{
+    position: absolute;
+    bottom: 40px;
+    right: 130px;
+}
+
+/*ACTIVIDAD 2 - MENU*/
+/********************/
+
+.contenedor-menu{
+    width: 982px;
+    height: 664px;
+    
+}
+
+.cabecera{
+    width: 100%;
+    height: 180px;
+    margin-top: -90px;
+    background-color: deeppink;
+    position: relative;
+    transform: skew(0deg,-2.5deg);
+}
+.logo-menu{
+    width: 307px;
+    height: 108px;
+    position: absolute;
+    right: 43px;
+    top: 150px;
+}
+.contenido-menu{
+    margin: 0 auto;
+    width: 682px;
+    height: 563px;
+    position: relative;
+}
+
+.img-menulog-1{
+    width: 351px;
+    height: 129px;
+    position: absolute;
+    top: 15px;
+    left: 0px;
+}
+.img-menu-1{
+    width: 334px;
+    height: 136px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    cursor: pointer;
+}
+.img-menulog-2{
+    width: 367px;
+    height: 100px;
+    position: absolute;
+    top: 162px;
+    left: -16px;
+}
+.img-menu-2{
+    width: 334px;
+    height: 136px;
+    position: absolute;
+    top: 152px;
+    left: 0;
+    cursor: pointer;
+}
+.img-menulog-3{
+    width: 351px;
+    height: 97px;
+    position: absolute;
+    bottom: 160px;
+    left: -5px;
+}
+.img-menu-3{
+    width: 334px;
+    height: 136px;
+    position: absolute;
+    bottom: 161px;
+    left: 0;
+    cursor: pointer;
+}
+.img-menulog-4{
+    width: 334px;
+    height: 120px;
+    position: absolute;
+    bottom: 23px;
+    left: 0;
+}
+.img-menu-4{
+    width: 334px;
+    height: 136px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    cursor: pointer;
+}
+.img-menu-5{
+    width: 334px;
+    height: 136px;
+    position: absolute;
+    top: 10px;
+    right: -20px;
+    cursor: pointer;
+}
+.img-menulog-6{
+    width: 365px;
+    height: 103px;
+    position: absolute;
+    top: 168px;
+    right: -34px;
+}
+.img-menu-6{
+    width: 334px;
+    height: 136px;
+    position: absolute;
+    top: 152px;
+    right: -20px;
+    cursor: pointer;
+}
+.img-menu-7{
+    width: 334px;
+    height: 136px;
+    position: absolute;
+    bottom: 154px;
+    right: -20px;
+    cursor: pointer;
+}
+.img-menu-8{
+    width: 334px;
+    height: 136px;
+    position: absolute;
+    bottom: 10px;
+    right: -20px;
+    cursor: pointer;
+}
+.efecto-menu:hover{
+    opacity: 0.5;
+}
+
+/*ACTIVIDAD 3 - UNIDAD 1*/
+/************************/
+.fuentes{/*fuentes para todas las unidades*/
+    font-family: Richmond W01 Extra Bold;
+}
+.btn-efecto{ /*para todos los botones de cada unidad*/
+    cursor: pointer;
+}
+.btn-efecto:hover{
+    opacity: 0.5;
+}
+.contenedor-unidad1{
+    width: 982px;
+    height: 664px;
+    /*border: 1px solid black;*/
+    position: relative;
+}
+.img-uni{
+    position: absolute;
+}
+
+.img-uni1{
+    top: 50px;
+    left: 50px;
+}
+.img-uni2{
+    top: 125px;
+    left: 325px;    
+}
+.img-uni3{
+    width: 300px;
+    height: 350px;
+    top: 100px;
+    left: 332px;
+    background-image: url(../img/unidad1/mascota1.png);
+    overflow: hidden;
+}
+.img-btn{
+    width: 59px;
+    height: 59px;
+    background-image: url(../img/unidad1/botom.png);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.img-btn-1{
+    bottom: 209px;
+    left: 243px;
+}
+.img-btn-2{
+    bottom: 131px;
+    left: 318px;
+}
+.img-btn-3{
+    bottom: 96px;
+    left: 419px;
+}
+.img-btn-4{
+    bottom: 97px;
+    right: 388px;
+}
+.img-btn-5{
+    bottom: 138px;
+    right: 299px;
+}
+.img-btn-6{
+    bottom: 211px;
+    right: 217px;
+}
+
+.boton{
+    width: 119px;
+    height: 40px;
+    background-image: url(../img/unidad1/unit-menu.png);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    overflow: hidden;
+    right: 80px;
+    bottom: 30px;
+    cursor: pointer;
+    animation: unit-menu 0.5s infinite steps(2);
+}
+@keyframes unit-menu{
+    from{
+        background-position: 238px 0;
+    }
+}
+
+
+/*ACTIVIDAD 4 - UNIDAD 2*/
+/************************/
+
+.contenedor-unidad-2{
+    width: 982px;
+    height: 664px;
+    /*border: 1px solid black;*/
+    position: relative;
+}
+.img-uni-2{
+    position: absolute;
+}
+
+.img-uni1-2{
+    top: 50px;
+    left: 50px;
+}
+.img-uni2-2{
+    top: 125px;
+    left: 325px;    
+}
+.img-uni3-2{
+    width: 300px;
+    height: 350px;
+    background-image: url(../img/unidad2/mascota2.png);
+    top: 100px;
+    left: 342px;
+    overflow: hidden
+}
+.img-btn-uni2{
+    width: 59px;
+    height: 59px;
+    background-image: url(../img/unidad2/botom.png);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.img-btn-1-2{
+    bottom: 209px;
+    left: 243px;
+}
+.img-btn-2-2{
+    bottom: 131px;
+    left: 318px;
+}
+.img-btn-3-2{
+    bottom: 96px;
+    left: 419px;
+}
+.img-btn-4-2{
+    bottom: 97px;
+    right: 388px;
+}
+.img-btn-5-2{
+    bottom: 138px;
+    right: 299px;
+}
+.img-btn-6-2{
+    bottom: 211px;
+    right: 217px;
+}
+
+/*ACTIVIDAD 5 - UNIDAD 3*/
+/************************/
+
+.contenedor-unidad-3{
+    width: 982px;
+    height: 664px;
+    /*border: 1px solid black;*/
+    position: relative;
+}
+.img-uni-3{
+    position: absolute;
+}
+
+.img-uni1-3{
+    top: 50px;
+    left: 50px;
+}
+.img-uni2-3{
+    top: 125px;
+    left: 325px;    
+}
+.img-uni3-3{
+    width: 300px;
+    height: 350px;
+    background-image: url(../img/unidad3/mascota3.png);
+    top: 100px;
+    left: 332px;
+    overflow: hidden
+}
+.img-btn-uni3{
+    width: 59px;
+    height: 59px;
+    background-image: url(../img/unidad3/botom.png);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.img-btn-1-3{
+    bottom: 209px;
+    left: 243px;
+}
+.img-btn-2-3{
+    bottom: 131px;
+    left: 318px;
+}
+.img-btn-3-3{
+    bottom: 96px;
+    left: 419px;
+}
+.img-btn-4-3{
+    bottom: 97px;
+    right: 388px;
+}
+.img-btn-5-3{
+    bottom: 138px;
+    right: 299px;
+}
+.img-btn-6-3{
+    bottom: 211px;
+    right: 217px;
+}
+
+/*ACTIVIDAD 6 - UNIDAD 4*/
+/************************/
+
+.contenedor-unidad-4{
+    width: 982px;
+    height: 664px;
+    /*border: 1px solid black;*/
+    position: relative;
+}
+.img-uni-4{
+    position: absolute;
+}
+
+.img-uni1-4{
+    top: 50px;
+    left: 50px;
+}
+.img-uni2-4{
+    top: 125px;
+    left: 325px;    
+}
+.img-uni3-4{
+    width: 300px;
+    height: 350px;
+    background-image: url(../img/unidad4/mascota4.png);
+    top: 100px;
+    left: 353px;
+    overflow: hidden
+}
+.img-btn-uni4{
+    width: 59px;
+    height: 59px;
+    background-image: url(../img/unidad4/botom.png);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.img-btn-1-4{
+    bottom: 209px;
+    left: 243px;
+}
+.img-btn-2-4{
+    bottom: 131px;
+    left: 318px;
+}
+.img-btn-3-4{
+    bottom: 96px;
+    left: 419px;
+}
+.img-btn-4-4{
+    bottom: 97px;
+    right: 388px;
+}
+.img-btn-5-4{
+    bottom: 138px;
+    right: 299px;
+}
+.img-btn-6-4{
+    bottom: 211px;
+    right: 217px;
+}
+
+/*ACTIVIDAD 7 - UNIDAD 5*/
+/************************/
+
+.contenedor-unidad-5{
+    width: 982px;
+    height: 664px;
+    /*border: 1px solid black;*/
+    position: relative;
+}
+.img-uni-5{
+    position: absolute;
+}
+
+.img-uni1-5{
+    top: 50px;
+    left: 50px;
+}
+.img-uni2-5{
+    top: 125px;
+    left: 325px;    
+}
+.img-uni3-5{
+    width: 300px;
+    height: 350px;
+    background-image: url(../img/unidad5/mascota5.png);
+    top: 100px;
+    left: 350px;
+    overflow: hidden
+}
+.img-btn-uni5{
+    width: 59px;
+    height: 59px;
+    background-image: url(../img/unidad5/botom.png);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.img-btn-1-5{
+    bottom: 209px;
+    left: 243px;
+}
+.img-btn-2-5{
+    bottom: 131px;
+    left: 318px;
+}
+.img-btn-3-5{
+    bottom: 96px;
+    left: 419px;
+}
+.img-btn-4-5{
+    bottom: 97px;
+    right: 388px;
+}
+.img-btn-5-5{
+    bottom: 138px;
+    right: 299px;
+}
+.img-btn-6-5{
+    bottom: 211px;
+    right: 217px;
+}
+
+/*ACTIVIDAD 8 - UNIDAD 6*/
+/************************/
+
+.contenedor-unidad-6{
+    width: 982px;
+    height: 664px;
+    /*border: 1px solid black;*/
+    position: relative;
+}
+.img-uni-6{
+    position: absolute;
+}
+
+.img-uni1-6{
+    top: 50px;
+    left: 50px;
+}
+.img-uni2-6{
+    top: 70px;
+    right: 90px;    
+}
+.img-uni3-6{
+    width: 225px;
+    height: 278px;
+    background-image: url(../img/unidad6/sprite1.png);
+    top: 150px;
+    left: 380px;
+    overflow: hidden
+}
+.img-uni4-6{
+    width: 195px;
+    height: 228px;
+    background-image: url(../img/unidad6/mascota6.png);
+    top: 53px;
+    right: 87px;
+    overflow: hidden
+}
+.img-btn-uni6{
+    width: 59px;
+    height: 59px;
+    background-image: url(../img/unidad6/botom.png);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.img-btn-1-6{
+    bottom: 209px;
+    left: 243px;
+}
+.img-btn-2-6{
+    bottom: 131px;
+    left: 318px;
+}
+.img-btn-3-6{
+    bottom: 96px;
+    left: 419px;
+}
+.img-btn-4-6{
+    bottom: 97px;
+    right: 388px;
+}
+.img-btn-5-6{
+    bottom: 138px;
+    right: 299px;
+}
+.img-btn-6-6{
+    bottom: 211px;
+    right: 217px;
+}
+
+/*ACTIVIDAD 9 - UNIDAD 7*/
+/************************/
+
+.contenedor-unidad-7{
+    width: 982px;
+    height: 664px;
+    /*border: 1px solid black;*/
+    position: relative;
+}
+.img-uni-7{
+    position: absolute;
+}
+
+.img-uni1-7{
+    top: 50px;
+    left: 50px;
+}
+.img-uni2-7{
+    top: 70px;
+    right: 90px;    
+}
+.img-uni3-7{
+    width: 220px;
+    height: 301px;
+    background-image: url(../img/unidad7/sprite2.png);
+    top: 150px;
+    left: 390px;
+    overflow: hidden
+}
+.img-uni4-7{
+    width: 195px;
+    height: 228px;
+    background-image: url(../img/unidad7/mascota7.png);
+    top: 54px;
+    right: 95px;
+    overflow: hidden
+}
+.img-btn-uni7{
+    width: 59px;
+    height: 59px;
+    background-image: url(../img/unidad6/botom.png);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.img-btn-1-7{
+    bottom: 209px;
+    left: 243px;
+}
+.img-btn-2-7{
+    bottom: 131px;
+    left: 318px;
+}
+.img-btn-3-7{
+    bottom: 96px;
+    left: 419px;
+}
+.img-btn-4-7{
+    bottom: 97px;
+    right: 388px;
+}
+.img-btn-5-7{
+    bottom: 138px;
+    right: 299px;
+}
+.img-btn-6-7{
+    bottom: 211px;
+    right: 217px;
+}
+
+/*ACTIVIDAD 10 - UNIDAD 8*/
+/************************/
+
+
+.contenedor-unidad-8{
+    width: 982px;
+    height: 664px;
+    /*border: 1px solid black;*/
+    position: relative;
+}
+.img-uni-8{
+    position: absolute;
+}
+
+.img-uni1-8{
+    top: 50px;
+    left: 50px;
+}
+.img-uni2-8{
+    top: 125px;
+    left: 325px;    
+}
+.img-uni3-8{
+    width: 300px;
+    height: 350px;
+    background-image: url(../img/unidad8/mascota.png);
+    top: 100px;
+    left: 350px;
+    overflow: hidden
+}
+.img-btn-uni8{
+    width: 59px;
+    height: 59px;
+    background-image: url(../img/unidad5/botom.png);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.img-btn-1-8{
+    bottom: 209px;
+    left: 243px;
+}
+.img-btn-2-8{
+    bottom: 131px;
+    left: 318px;
+}
+.img-btn-3-8{
+    bottom: 96px;
+    left: 419px;
+}
+.img-btn-4-8{
+    bottom: 97px;
+    right: 388px;
+}
+.img-btn-5-8{
+    bottom: 138px;
+    right: 299px;
+}
+.img-btn-6-8{
+    bottom: 211px;
+    right: 217px;
+}
+
+/*clase css para hacer acciones*/
+/*******************************/
+
+.ocultar{
+    display: none;
+}
